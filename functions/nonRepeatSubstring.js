@@ -4,6 +4,8 @@
 // git ignore automatic?
 // create new folder and copy node modules there to run this function. Upload leetcode functions' to git.
 // fixed BuilderTest.js bug, renamed data/testFile.js to arrayGenerator.js. How to declare it on git?   
+// need to change repo folder structure for other site's problems,e.g. codeforce solutions inside codeforce folder
+
 module.exports = function(s) {
     let set = [],queue = "",result="",max=0;
     for(c of s) {
@@ -14,7 +16,6 @@ module.exports = function(s) {
             max=queue.length;
             result = queue;
         }
-
 //        console.debug(queue);
     }
     return result;

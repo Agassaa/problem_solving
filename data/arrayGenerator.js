@@ -1,4 +1,5 @@
 //can u export object or IIFE function? or maybe json? but we need to generate json first
+
 //we pass 2 testFiles, 1 as a function which will gererate new tests each time called, other one will be a specific array
 module.exports.arrayGeneratorFunction = function (){
 	let result = [];
